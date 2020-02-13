@@ -24,11 +24,12 @@ ul {
 }
 
 .poke-item {
-  border: 2px solid blueviolet;
-  border-radius: 5px;
-  background-color: skyblue;
-  color: rgb(252, 251, 245);
-  margin: 2px;
+  border: 5px solid yellow;
+  border-radius: 6px;
+  background-color:rgba(255, 255, 255, 0.863);
+  box-shadow: 4px 4px 1px rgb(90, 86, 80);
+  color: rgb(75, 73, 57);
+  margin: 7px;
   list-style-type: none;
   /* width: 95%;
   height: 95%; */

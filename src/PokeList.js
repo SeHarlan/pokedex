@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PokeData from './mockData';
 import request from 'superagent';
 
 import PokeItem from './PokeItem.js';
