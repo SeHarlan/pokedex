@@ -2,13 +2,17 @@ import React, { Component } from 'react';
 
 export default class App extends Component {
     render() {
-      return <li>
-          <h1>{this.props.item.pokemon}</h1>
-          <span>Type: {this.props.item.type_1}</span>
-          <span>HP: {this.props.item.hp}</span>
+      return <li className="poke-item">
+          <h2>{this.props.item.pokemon}</h2>
+          <div>
+            <span className="type" style={{backgroundColor:this.props.item.color_1}}>{this.props.item.type_1}</span>
+            <span>HP: {this.props.item.hp}</span>
+          </div>
           <img src={this.props.item.url_image} alt={this.props.item.pokemon} />
-          <p>Attack Stat: {this.props.item.attack}</p>
-          <p>Defense Stat: {this.props.item.defense}</p>
+          <div>
+            <span>A: {this.props.item.attack}</span>
+            <span>D: {this.props.item.defense}</span>
+          </div>
       </li>
     }
   }
