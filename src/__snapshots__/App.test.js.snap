@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app.js correctly 1`] = `
+<body>
+  <header>
+    <h1>
+      Gotta Catch Em' All
+    </h1>
+  </header>
+  <section>
+    <ul />
+  </section>
+</body>
+`;

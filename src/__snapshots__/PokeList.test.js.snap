@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders pokelist.js correctly 1`] = `
+<section>
+  <ul />
+</section>
+`;

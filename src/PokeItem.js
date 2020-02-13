@@ -2,12 +2,8 @@ import React, { Component } from 'react';
 
 export default class App extends Component {
     render() {
-        const borderStyle = {
-            borderColor: this.props.item.color_1
-        }
 
-
-      return <li className="poke-item" style={borderStyle} >
+      return <li className="poke-item" style={{borderColor: this.props.item.color_1 }} >
           <h2>{this.props.item.pokemon}</h2>
           <div>
             <span className="type" style={{backgroundColor:this.props.item.color_1}}>{this.props.item.type_1}</span>
