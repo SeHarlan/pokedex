@@ -9,8 +9,10 @@ import PokeList from './PokeList.js';
 import Search from './Search';
 
 export const stateStart = {
-  pokemon: [],
-  totalResults: []
+  results: [],
+  page: null,
+  perPage: null,
+  total: null
 }
 
 export default class App extends Component {
@@ -19,14 +21,21 @@ export default class App extends Component {
 
   async loadPokemon() {
       const pokemonData = await getPokemon();
-      console.log(pokemonData)
+      console.log(pokemonData.body.results)
+      this.setState({
+        results: pokemonData.body.results,
+        page: pokemonData.body.page,
+        perPage: pokemonData.body.perPage,
+        totalResults: pokemonData.body.count
+      })
+      
   }
 
   async componentDidMount() {
     await this.loadPokemon();
 
     window.addEventListener('hashchange', async () => {
-      await this.loadPokemon;
+      await this.loadPokemon();
     })
   }
 
@@ -34,7 +43,7 @@ export default class App extends Component {
     return <div>
       <Search />
       <Header />
-      <PokeList />
+      <PokeList pokemon={this.state.results} />
     </div>
   }
 }
