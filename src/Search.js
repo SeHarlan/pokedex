@@ -7,7 +7,7 @@ export default class Search extends Component {
     handleSubmit = e => {
         e.preventDefault();
         const formData = new FormData(document.querySelector('form'));
-        // change hash to trigger a new api hit
+        
         window.location.hash = formData.get('search');
     }
 

@@ -1,7 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders app.js correctly 1`] = `
-<body>
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <label
+      for="search"
+    >
+      Search: 
+    </label>
+    <input
+      id="search"
+      name="search"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button>
+      Find My Pokemon!
+    </button>
+  </form>
   <header>
     <h1>
       Gotta Catch Em' All
@@ -10,5 +29,8 @@ exports[`renders app.js correctly 1`] = `
   <section>
     <ul />
   </section>
-</body>
+  <p>
+    No found Pokemon :/, try again
+  </p>
+</div>
 `;
