@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PokeItem.js correctly 1`] = `
+<li
+  className="poke-item"
+  style={
+    Object {
+      "borderColor": undefined,
+    }
+  }
+>
+  <h2 />
+  <div>
+    <span
+      className="type"
+      style={
+        Object {
+          "backgroundColor": undefined,
+        }
+      }
+    />
+    <span>
+      HP: 
+    </span>
+  </div>
+  <img />
+  <div>
+    <span>
+      A: 
+    </span>
+    <span>
+      D: 
+    </span>
+  </div>
+</li>
+`;

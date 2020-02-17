@@ -27,18 +27,13 @@ export default class App extends Component {
       if (!searchParam) window.location.search = 'page=1';
 
       const currentPage = (searchParam) ? Number(searchParam.get('page')) : 1;
-
-
+      
       this.setState({
         results: pokemonData.body.results,
         page: currentPage,
         perPage: pokemonData.body.perPage,
         totalResults: pokemonData.body.count
       })
-
-      
-      
-      
   }
 
   async componentDidMount() {

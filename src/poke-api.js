@@ -16,5 +16,6 @@ export async function getPokemon() {
     const newUrl = URL + '?' + queryString + pageString;
 
     const data = await request.get(newUrl);
+
     return data;
 }

@@ -4,7 +4,7 @@ import PokeItem from './PokeItem.js';
 
 test('renders PokeItem.js correctly', () => {
   const tree = renderer
-    .create(<PokeItem />)
+    .create(<PokeItem item={{}}/>)
     .toJSON();
   expect(tree).toMatchSnapshot();
 })
