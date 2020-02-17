@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders pokelist.js correctly 1`] = `
+<section>
+  <ul>
+    <li
+      className="poke-item"
+      style={
+        Object {
+          "borderColor": "#78C850",
+        }
+      }
+    >
+      <h2>
+        venusaur
+      </h2>
+      <div>
+        <span
+          className="type"
+          style={
+            Object {
+              "backgroundColor": "#78C850",
+            }
+          }
+        >
+          grass
+        </span>
+        <span>
+          HP: 
+          80
+        </span>
+      </div>
+      <img
+        alt="venusaur"
+        src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png"
+      />
+      <div>
+        <span>
+          A: 
+          82
+        </span>
+        <span>
+          D: 
+          83
+        </span>
+      </div>
+    </li>
+    <li
+      className="poke-item"
+      style={
+        Object {
+          "borderColor": "#78C850",
+        }
+      }
+    >
+      <h2>
+        venusaur
+      </h2>
+      <div>
+        <span
+          className="type"
+          style={
+            Object {
+              "backgroundColor": "#78C850",
+            }
+          }
+        >
+          grass
+        </span>
+        <span>
+          HP: 
+          80
+        </span>
+      </div>
+      <img
+        alt="venusaur"
+        src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png"
+      />
+      <div>
+        <span>
+          A: 
+          82
+        </span>
+        <span>
+          D: 
+          83
+        </span>
+      </div>
+    </li>
+    <li
+      className="poke-item"
+      style={
+        Object {
+          "borderColor": "#78C850",
+        }
+      }
+    >
+      <h2>
+        bulbasaur
+      </h2>
+      <div>
+        <span
+          className="type"
+          style={
+            Object {
+              "backgroundColor": "#78C850",
+            }
+          }
+        >
+          grass
+        </span>
+        <span>
+          HP: 
+          45
+        </span>
+      </div>
+      <img
+        alt="bulbasaur"
+        src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+      />
+      <div>
+        <span>
+          A: 
+          49
+        </span>
+        <span>
+          D: 
+          49
+        </span>
+      </div>
+    </li>
+    <li
+      className="poke-item"
+      style={
+        Object {
+          "borderColor": "#78C850",
+        }
+      }
+    >
+      <h2>
+        venusaur-mega
+      </h2>
+      <div>
+        <span
+          className="type"
+          style={
+            Object {
+              "backgroundColor": "#78C850",
+            }
+          }
+        >
+          grass
+        </span>
+        <span>
+          HP: 
+          80
+        </span>
+      </div>
+      <img
+        alt="venusaur-mega"
+        src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/003_f2.png"
+      />
+      <div>
+        <span>
+          A: 
+          100
+        </span>
+        <span>
+          D: 
+          123
+        </span>
+      </div>
+    </li>
+  </ul>
+</section>
+`;

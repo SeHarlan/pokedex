@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app.js correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <label
+      for="search"
+    >
+      Search: 
+    </label>
+    <input
+      id="search"
+      name="search"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button>
+      Find My Pokemon!
+    </button>
+  </form>
+  <header>
+    <h1>
+      Gotta Catch Em' All
+    </h1>
+  </header>
+  <section>
+    <ul />
+  </section>
+  <p>
+    No found Pokemon :/, try again
+  </p>
+</div>
+`;
